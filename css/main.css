@@ -1,0 +1,333 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img, embed,object
+{
+	max-width: 100%;
+}
+
+body
+{
+	background-image: url("../images/pexels-photo.jpg");
+	width: 100%;
+	margin: 0 auto;
+}
+
+h2
+{
+	font-family: 'Farsan', cursive;
+	font-size: 24px;
+	padding-top: 10px;
+}
+
+h1 
+{
+	font-family: 'Farsan', cursive;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+p 
+{
+	font-size: 14px;
+	color: #747475;
+	padding-bottom: 10px;
+}
+
+ul
+{
+	padding: 0;
+}
+
+ li
+{
+	list-style-type: none;
+}
+
+footer
+{
+	background-color: black;
+	height: 60px;
+	text-align: center;
+}
+
+.title
+{
+	text-align: center;
+	color: #cccccc;
+}
+
+#logo
+{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#con
+{
+	margin: 10px auto;
+	padding: 0 15px 0 15px;
+	overflow: hidden;
+	width: 85%;
+}
+
+#con p 
+{
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+
+.header
+{
+	display: block;
+	width: 80%;
+	margin: 10px auto;
+	clear:both;
+
+}
+
+.header ul
+{
+	width: 45%;
+	margin: 10px auto;
+	padding: 0 15px 10px 15px;
+}
+
+.header a 
+{
+	color: #cccccc;
+}
+
+#about, #navbar 
+{
+	clear: both;
+}
+
+.header li
+{
+	border-bottom: .1px solid #cccccc;
+	text-align: center;
+	float: left;
+}
+
+#thirdCon, #fourthCon, #secCon, #thirdContain 
+{
+	width: 80%;
+	margin: 10px auto;
+	padding: 0 15px 0 15px;
+	background-color: #131114;
+	border-radius: 20px;
+}
+
+#secCon, #thirdCon
+{
+	display: block;
+}
+
+#footerCon 
+{
+	margin: 0 auto;
+	padding: 20px 15px 0 15px;
+	bottom: 0;
+	width: 100%;
+}
+
+#footerCon p 
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+.bottomNav 
+{
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.bottomNav 
+{
+	padding: 10px 15px 0 15px;
+}
+
+.bottomNav ul
+{
+	margin: 0;
+	margin-top: 10px;
+}
+
+.bottomNav li
+{
+	display: inline;
+	text-align: center;
+	overflow: hidden;
+	padding-left: 10px;
+}
+
+.bottomNav a 
+{
+	color: #cccccc;
+}
+
+#secondContainer #accordion
+{
+	margin: 0;
+}
+
+#secondContainer 
+{
+	width: 70%;
+	margin: 10px auto;
+}
+
+#collapseOne, #collapseTwo 
+{
+	overflow: auto;
+}
+
+#contain 
+{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#contain p 
+{
+	color: #cccccc;
+}
+
+#thirdContainer
+{
+	margin: 10px auto;
+	padding: 0 15px 0 15px;
+}
+
+#con p, #secondContainer p
+{
+	color: #cccccc;
+}
+
+@media screen and (min-width: 768px) {
+	 #fourthCon
+	{
+		margin: 10px auto;
+		padding: 0 10px 0 10px;
+	}
+
+	p 
+	{
+		font-size: 20px;
+	}
+
+	h2 
+	{
+		font-size: 30px;
+	}
+
+	.header li, .bottomNav li 
+	{
+		font-size: 20px;
+	}
+
+	#mainCon, #secCon, #thirdCon
+	{
+		display: block;
+	}
+
+	#secCon
+	{
+		width: 70%;
+	}
+
+	#thirdCon
+	{
+		width: 100%;
+	}
+
+	.header li 
+	{
+		clear: both;
+	}
+
+	.header ul
+	{
+		display: block;
+		width: 12%;
+	}
+
+	div.col-sm-12 
+	{
+		padding: 0 0 10px 0;
+	}
+
+	div#thirdContainer 
+	{
+		margin: 0;
+		padding: 0;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.header li
+	{
+		display: inline-block;
+		border-right: 1px solid #cccccc;
+		font-weight: bold;
+		font-size: 15px;
+		padding: 10px;
+		background-color: black;
+		border-bottom: none;
+		margin: 0 auto;
+	}
+
+	.header ul
+	{
+		margin: 0 auto;
+
+	}
+
+	#navbar 
+	{
+		display: block;
+
+	}
+
+	.header
+	{
+		text-align: center;
+	}
+
+	body
+	{
+		max-width: 100%
+	}
+
+	#con
+	{
+		max-width: 1200px;
+		display: block;
+		overflow: hidden;
+	}
+
+	#logo
+	{
+		width: 40%;
+	}
+
+	#fourthCon 
+	{
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 15px;
+	}
+
+	.container 
+	{
+		width: 1200px;
+	}
+}
+
+
